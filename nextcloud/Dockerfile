@@ -30,7 +30,7 @@ ARG BUILD_VERSION
 LABEL \
     io.hass.name="Nextcloud" \
     io.hass.description="Nextcloud add-on by Matthieu Petit" \
-    io.hass.arch="${BUILD_ARCH}" \
+    io.hass.arch="armv7" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="Matthieu Petit <p.matthieu@me.com>" \
